@@ -65,6 +65,10 @@ h1{
 	padding: 5px;
 }
 
+h2{
+	color: #FC3232;
+}
+
 nav{
 	padding-bottom: 5px;
 }
@@ -92,7 +96,16 @@ li{
 }
 
 p{
+	margin: auto;
 	padding: 5px;
+	max-width: 660px;
+	font-weight: bold;
+	font-size: larger;
+	color: #FC3232;
+}
+
+.rooster{
+	min-width: 900px;
 }
 
 button{
@@ -107,18 +120,16 @@ p#hiddenText{
 	margin: 0px auto;
 	padding: 0px;
 	border: 0px;
-	font-size: larger;
 	max-width: 660px;
 }
 
 #gradientText {
-    background-image: linear-gradient(180deg, black, #FC3232);
+    background-image: linear-gradient(180deg, #FC3232, black);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 	margin: 0px auto;
 	padding: 0px;
-	font-size: larger;
 	max-width: 660px;
 }
 

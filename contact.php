@@ -15,7 +15,7 @@ require_once 'head.php';
 			echo $_GET['msg'];
 		}
 		?>
-        <h2>Contact</h2>
+        <h1>Contact</h1>
        		<div class="form">
             	<form action="backend/contactController.php" method="POST">
 					<div class="formgroup">

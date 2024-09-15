@@ -11,7 +11,7 @@ require_once 'head.php';
 		?>
 		<main>
 			<div class="wrapper">
-				<h2>About me</h2>
+				<h1>About me</h1>
 			</div>
 			<p id="gradientText">Hoi ik ben kelvin. ik ben 20 jaar oud. Ik zit nu in het 2de jaar software development op curio terheidenseweg 350. Eerst 
 				zat ik heel erg te twijfelen wat ik later zou willen doen. Uiteindelijk heb ik voor deze opleiding gekozen omdat ik op mijn vorige opleiding 
@@ -29,7 +29,7 @@ require_once 'head.php';
 					document.getElementById('hiddenText').style.display = 'block';
 					document.getElementById('leesMinder').style.display = 'block';
 					document.getElementById('leesMeer').style.display = 'none';
-					document.getElementById('gradientText').style.color = "black";
+					document.getElementById('gradientText').style.color = "#FC3232";
 				})
 				document.getElementById('leesMinder').addEventListener('click' ,function(){
 					document.getElementById('hiddenText').style.display = 'none';

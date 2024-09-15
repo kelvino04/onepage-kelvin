@@ -5,7 +5,7 @@
         <nav>
             <a href="index.php">Home</a>
             <a href="rooster.php">Rooster</a>
-            <a href="aboutme.php">Over mij</a>
+            <a href="aboutme.php">Ik en de opleiding</a>
             <a href="contact.php">Contact</a>
         </nav>
         

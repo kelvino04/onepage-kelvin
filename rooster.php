@@ -11,7 +11,7 @@ require_once 'head.php';
 		?>
 		<main>
 			<div class="wrapper">
-				<h2>Rooster en opleidings jaren</h2>
+				<h1>Rooster en opleidings jaren</h1>
 				
 				<img src="img\Rooster eerste leerjaar.png" alt="rooster" width=75% height=75%>
 				<img src="img\Opleidingsoverzicht3.png" alt="rooster" width=75% height=75%>

@@ -27,7 +27,7 @@
 
 body{
 	text-align: center;
-	background-color: #03357C;
+	background-color: white;
 	font-family: 'Font';
 }
 
@@ -49,24 +49,31 @@ header, footer{
 	color: #FC3232;
 }
 
+header{
+	padding-bottom: 50px;
+	clip-path: ellipse(65% 100% at top);
+}
 
 
 footer{
 	width: 100%;
 	padding: 5px 0px;
+	clip-path: ellipse(65% 100% at bottom);
 }
   
 footer p{ 
 	padding: 3px 0px;
+	color: #FC3232;
 }
 
 h1{
-	color: #FC3232;
+	color: black;
 	padding: 5px;
+	font-size: 40px;
 }
 
 h2{
-	color: #FC3232;
+	color: black;
 }
 
 nav{
@@ -97,11 +104,11 @@ li{
 
 p{
 	margin: auto;
-	padding: 5px;
+	padding-bottom: 30px;
 	max-width: 660px;
 	font-weight: bold;
 	font-size: larger;
-	color: #FC3232;
+	color: black;
 }
 
 .rooster{
@@ -124,7 +131,7 @@ p#hiddenText{
 }
 
 #gradientText {
-    background-image: linear-gradient(180deg, #FC3232, black);
+    background-image: linear-gradient(180deg, black, white);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
